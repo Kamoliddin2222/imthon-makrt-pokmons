@@ -1,0 +1,176 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-weight: bold;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: yellow;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.movie__title {
+  text-align: center;
+  font-size: 52px;
+  margin-bottom: 24px;
+}
+
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 50px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.movie__search {
+  width: 250px;
+  height: 35px;
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.movie__genre {
+  width: 250px;
+  height: 35px;
+  padding-top: 10px;
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.movie__btn {
+  width: 250px;
+  height: 35px;
+  font-size: 18px;
+  margin-bottom: 25px;
+  background-color: #1d43eb;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+
+label {
+  font-weight: bold;
+}
+
+img {
+  border-radius: 10px;
+  margin-bottom: 15px;
+  position: relative;
+  z-index: 1;
+  margin-left: 40px;
+}
+
+li {
+  border: 2px solid #000;
+  margin-top: 20px;
+  list-style-type: none;
+  width: 280px;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: yellow;
+  -webkit-box-shadow: 5px 10px rgba(154, 160, 185, 0.05), 0 15px 40px #a6adc9;
+          box-shadow: 5px 10px rgba(154, 160, 185, 0.05), 0 15px 40px #a6adc9;
+}
+
+.movie__list {
+  width: 1200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.btn-like {
+  width: 20px;
+  border: none;
+  background-color: transparent;
+}
+
+.red {
+  color: red;
+}
+
+.header-heart {
+  font-size: 5rem;
+}
+
+.aside {
+  position: fixed;
+  top: 0;
+  right: -20%;
+  z-index: 2000;
+  height: 100vh;
+  width: 20%;
+  background-color: #000;
+  border: .1rem solid #000;
+  -webkit-transition: .6s ease all;
+  transition: .6s ease all;
+  overflow: scroll;
+}
+
+.fa-chevron-right {
+  position: absolute;
+  top: 50%;
+  left: 1%;
+  height: 20px;
+  font-size: 2rem;
+  color: #9c9d9e;
+}
+
+.pos-left {
+  right: 0;
+}
+
+.pokem--item {
+  width: 200px;
+  margin-left: 20%;
+  background-color: yellow;
+}
+
+.pokem--item-title {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+.pokem--genre {
+  font-size: 0.7rem;
+  margin-bottom: 5px;
+}
+
+.active {
+  color: black;
+}
+/*# sourceMappingURL=main.css.map */
